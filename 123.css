@@ -1,0 +1,378 @@
+body{
+	margin: 0; 
+	padding: 0;
+	font-family:Poppins;   
+
+}
+.navbar{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #66000000;
+	width: 100%;
+	height: 70px;
+	z-index: 1;
+
+}
+.nav{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 5%;
+}
+.logo{
+	width: 230px;
+	flex: 1 1 auto;
+	margin-left: 5%;
+	text-orientation: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 40px;
+	flood-color: black;
+	font-family: Georgia, serif;
+
+}
+a{
+	margin: 15px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+
+}
+.banner-area{
+	position: relative;
+	background-image: url(bgp.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.serv-area
+{position: relative;
+	background-image: url();
+	margin-top: 
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	}
+	.picture{
+		position: relative;
+		width: 80vh;
+		height: 70vh;
+		margin-left: 52%;
+		margin-top: 5%;
+	}
+	
+  
+
+.techno-area{
+	position: relative;
+	background-image: url(22.jpg);
+	width: 100%;
+	height: 110vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	}
+	.enqu-area{
+	position: relative;
+	background-image: url(neon.jpg);
+	width: 100%;
+	height: 110vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	}
+	.hh{
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		transform: translateY(-100%);
+	}
+	.form-section{
+		margin-top: 5rem;
+		display: grid;
+		grid-gap: 5rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.form-left h1{
+		color: black;
+		padding: 0;
+		margin: 0;
+   
+	}
+	.form-left h4{
+		color: black;
+		padding: 0;
+		margin: 0;
+	}
+	.linee{
+		border-bottom: 2px solid;
+		width:8%;
+		margin-left: 0;
+		
+	}
+	.form-left span{
+		font-weight: bold;
+	}
+	.form-left hr{
+		width: 25rem;
+		margin-left: 0;
+		border: 1px solid;
+
+	}
+	.form-right{
+		color: black;
+		padding: 0;
+		margin: 0;
+
+	}
+	form{
+		padding-top:2rem;  
+	}
+	form h5{
+		padding: 0;
+		margin: 0;
+		color: black;
+
+
+	}
+	form input{
+		padding: 0.6rem;
+		width: 27rem;
+		border: none;
+		color:black;
+		outline:none;
+		border:none;
+
+	}
+	form textarea{
+		padding: 0.6rem;
+		width: 27rem;
+		border: none;
+		color:black;
+		outline:none;
+		border:none;
+
+	}
+	form button{
+		width: 9rem;
+		padding: 5px;
+		outline: none;
+		border-color:transparent;
+		color:grey;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-top: 0.9rem;
+		border-radius: 50px; 
+		cursor: pointer;
+		color: #fff;
+	}
+
+
+	.port-area{
+		margin-top: 1%;
+		position: relative;
+	background-image: url(bo.jpg);
+	width: 100%;
+	height: 110vh;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+
+	}  
+.port{
+	position: absolute;
+	height: auto;
+	width: 80%;
+	margin: auto;
+	transform: translateY(-150%);
+	margin-right: 50%;
+	margin-left: 10%;
+
+	text-align: center;
+}
+.port h1{
+	font-size: 40px;
+	color: white;
+	font-family: monospace;
+	font-weight: bold;
+}
+.port h3{
+	font-size: 22px;
+	color: darkgrey;
+	font-family: sans-serif;
+	
+}
+.dropbtn{
+	width: 200px;
+	height: 50px;
+	padding: 5px ;
+	font-size: 20px;
+	min-width: 170px;
+
+	
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+
+}	
+.dropdown-content{
+	background-color: lightgrey;
+
+	display: none;
+	position:absolute; ;
+	min-width: 170px;
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	padding: 8px 10px;
+	text-decoration: none;
+	display: block;
+	align-items: center;
+	font-size: 15px;
+}	
+.dropdown-content a:hover {background-color: grey;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+.table{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.object{
+	width: 10%;
+
+}
+.text-object{
+	width: 10%;
+}
+.imgd{
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+.text-object h2{
+	
+	font-size: 40px;
+	font-family: sans-serif;
+	color:black;
+}
+
+
+
+.blog-text{
+	font-family: system-ui;
+	font-size: 20px;
+	text-align: justify;
+	color:#A9A9A9;
+
+}
+.explore{
+	background-image: linear-gradient(to right, #D3D3D3,#A9A9A9);
+	padding: 10px 16px 12px;
+	border-radius: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #fff;
+	border:none!important;
+}
+.explore:hover{
+	background-image: linear-gradient(to right, darkgrey,white);
+	
+}
+.wavy{
+	margin-top: 5%;
+	position: relative;
+	-webkit-box-reflect: below -12px linear-gradient(transparent, #66000000);
+}
+.wavy span{
+	position: relative;
+	display: inline-block;
+	color: black;
+	font-size: 1em;
+	font-weight: bolder;
+	animation: animate 1s ease-in-out infinite;
+	animation-delay: calc(0.05s * var(--i));
+}
+@keyframes animate{
+	0%{
+		transform: translateY(0px);
+	}
+	20%{
+		transform: translateY(-20px);
+	}
+	40%,100%{
+		transform: translateY(0px);
+	}
+}
+.over{
+	position: absolute;
+	height: auto;
+	width: 80%;
+	margin: auto;
+	transform: translateY(-150%);
+	margin-right: 50%;
+	margin-left: 10%;
+
+	text-align: center;
+
+}
+.over h1{
+
+	font-size: 40px;
+	color: white;
+}
+.over h3{
+	font-size: 25px;
+	color: white;
+}
+.wavvy{
+	margin-top: 5%;
+	position: relative;
+	-webkit-box-reflect: below -12px linear-gradient(transparent, #66000000);
+}
+.wavvy span{
+	position: relative;
+	display: inline-block;
+	color: white;
+	font-size: 3em;
+	font-weight: bolder;
+	animation: animate 1s ease-in-out infinite;
+	animation-delay: calc(0.020s * var(--i));
+}
+@keyframes animate{
+	0%{
+		transform: translateY(0px);
+	}
+	20%{
+		transform: translateY(-20px);
+	}
+	40%,100%{
+		transform: translateY(0px);
+	}
+}
